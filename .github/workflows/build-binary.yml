@@ -119,11 +119,11 @@ jobs:
           ```
           
           ### 📝 Environment Variables
-          - `UUID` - cdd96b06-2290-4d5d-ae68-a19eb9fb839b
-          - `PORT` - 52933 (default: 3000)
+          - `UUID` - User UUID
+          - `PORT` - Server port (default: 3000)
           - `DOMAIN` - Domain name
-          - `NAME` - JP
+          - `NAME` - Custom server name
           - `WSPATH` - WebSocket path
-          - `SUB_PATH` - sykin (default: sub)
+          - `SUB_PATH` - Subscription path (default: sub)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
